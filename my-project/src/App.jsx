@@ -1,14 +1,17 @@
+import Nav_bar from "./components/Nav_bar";
 
-import './App.css'
+import "./App.css";
+
+import Cards from "./components/Cards";
 
 function App() {
-
-
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  )
+    <div>
+      <Nav_bar></Nav_bar>
+
+      <Cards></Cards>
+    </div>
+  );
 }
 
-export default App
+export default App;
