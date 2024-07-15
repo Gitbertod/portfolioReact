@@ -1,7 +1,7 @@
 const Nav_bar = () => {
   return (
     <header >
-      <nav className="bg-white h-24 fixed w-full z-20 top-0 start-0 shadow-lg ">
+      <nav className="backdrop-blur-sm bg-white/30 h-24 fixed w-full z-20 top-0 start-0 shadow-lg ">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 my-4 ">
           <a
             href="https://flowbite.com/"
