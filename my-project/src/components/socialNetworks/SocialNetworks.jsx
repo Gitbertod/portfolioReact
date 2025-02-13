@@ -7,10 +7,18 @@ import { CiMail } from "react-icons/ci";
 const SocialNetworks = () => {
   return (
     <div className={styles.networks}>
-      <FaGithub className={styles.icon} />
-      <FaLinkedin className={styles.icon} />
-      <FaWhatsapp className={styles.icon} />
-      <CiMail className={styles.icon} />
+      <a href="https://github.com/Gitbertod" target="_blank">
+        <FaGithub className={styles.icon} />
+      </a>
+      <a href="https://www.linkedin.com/in/gilberto-d%C3%ADaz-pimentel-018a34165/" target="_blank">
+        <FaLinkedin className={styles.icon} />
+      </a>
+      <a href=" https://wa.me/+51999917531" target="_blank">
+        <FaWhatsapp className={styles.icon} />
+      </a>
+      <a href="mailto:diazp.gilberto@gmail.com" target="_blank">
+        <CiMail className={styles.icon} />
+      </a>
     </div>
   );
 };

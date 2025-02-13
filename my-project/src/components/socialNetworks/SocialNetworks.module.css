@@ -3,8 +3,17 @@
 }
 
 .icon{
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     color: gray;
     margin: 20px;
+}
+
+/*RESPONSIVE*/
+
+@media (max-width:700px){
+    .icon{
+        width: 40px;
+        height: 40px; 
+    }
 }
