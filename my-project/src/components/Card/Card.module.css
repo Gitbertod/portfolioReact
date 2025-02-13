@@ -1,0 +1,43 @@
+.card {
+    margin: 40px;
+    min-width: 350px;
+    max-width: 25%;
+    min-height: 400px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra más sutil y minimalista */
+    border-radius: 10px;
+    overflow: hidden; /* Evita que la imagen sobresalga */
+    position: relative;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .imageContainer {
+    overflow: hidden; /* Evita que la imagen sobresalga */
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15); /* Un poco más de profundidad en hover */
+  }
+  
+  .card:hover img {
+    transform: scale(1.1); /* Efecto de zoom sin cambiar dimensiones del contenedor */
+  }
+  
+  /*RESPONSIVE*/
+  @media (max-width: 600px) {
+    .card img {
+      height: 350px;
+    }
+
+    .card img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover; /* La imagen mantendrá su proporción sin deformarse */
+      }
+  }
+  

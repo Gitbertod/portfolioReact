@@ -1,63 +1,11 @@
-.comfortaa {
-  font-family: "Comfortaa", serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-}
-.doto {
-    font-family: "Doto", serif;
-    font-optical-sizing: auto;
-    font-size: 35px;
-    font-weight: 400;
-    font-style: normal;
-    font-variation-settings:
-      "ROND" 0;
-  }
 .container {
-  height: 50vh;
-margin: 0px auto;
   display: flex;
+  flex-direction: column;
+  height: 100vh;
   justify-content: center;
   align-items: center;
-   /* background-image: url("/common-bg.svg");  */
-  justify-content: center;
+  margin:20px ;
+   
+  /* background-image: url("/common-bg.svg");  */
 }
 
-.box{
-    max-width: 640px;
-    display: flex;
-    flex-direction: column;
-    
-    justify-content: center;
-    
-    margin: 20px;
-}
- h4 {
-  color: gray;
-  font-size: 30px;
-  font-family: "Comfortaa", serif;
-}
-
-h1 {
-  color: gray;
-  font-size: 50px;
-  font-family: "Comfortaa", serif;
-}
-
-.box p {
-  color: gray;
-  font-size: 30px;
-}
-.saludo{
-    font-size: 30px;
-}
-.myname{
-    font-family: "Doto", serif;
-    font-optical-sizing: auto;
-    font-size: 35px;
-    font-weight: 700;
-    font-style: normal;
-    font-variation-settings:
-      "ROND" 0;
-    font-size: 80px;
-}
