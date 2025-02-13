@@ -7,7 +7,7 @@ const Cards = ({ children }) => {
     data-aos-easing="ease-in-sine"
     data-aos-duration="1000">
       {children}
-      <div className=" flex justify-center space-x-4 flex-wrap">
+      <div className=" flex justify-center  flex-wrap">
         
         <Card title="SIGMA" image={"sigmaCover.jpg"} text={
             <>
