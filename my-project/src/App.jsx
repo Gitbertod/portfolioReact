@@ -23,9 +23,9 @@ function App() {
       </Cards>
       <SectionComponent>
         <Title title="Contact" />
-        <ContactoForm/>
+        <ContactoForm />
       </SectionComponent>
-      <FooterComponent/>
+      <FooterComponent />
     </>
   );
 }
