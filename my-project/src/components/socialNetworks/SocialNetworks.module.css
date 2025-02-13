@@ -1,0 +1,10 @@
+.networks{
+    display: flex;
+}
+
+.icon{
+    width: 80px;
+    height: 80px;
+    color: gray;
+    margin: 20px;
+}
