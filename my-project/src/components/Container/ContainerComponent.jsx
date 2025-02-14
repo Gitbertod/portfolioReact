@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import styles from "./ContainerComponent.module.css";
-const ContainerComponent = ({children}) => {
+const ContainerComponent = ({ children }) => {
   useEffect(() => {
     AOS.init();
   }, []);
@@ -15,9 +15,7 @@ const ContainerComponent = ({children}) => {
         data-aos="fade-left"
         data-aos-offset="200"
         data-aos-easing="ease-in-sine"
-      >
-        
-      </div>
+      ></div>
     </section>
   );
 };
