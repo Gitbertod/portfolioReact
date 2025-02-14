@@ -4,7 +4,10 @@ import Title from "../title/Title";
 
 const About = () => {
   return (
-    <>
+    <div data-aos="fade-up"
+    data-aos-offset="300"
+    data-aos-easing="ease-in-sine"
+    data-aos-duration="1000">
     <Title title={"Acerca de mi"}></Title>
     <div className={styles.about}>
       <p className={styles.parrafo}>
@@ -19,7 +22,7 @@ const About = () => {
       </p>
       <img src="/profile.svg" className={styles.image}></img>
     </div>
-    </>
+    </div>
   );
 };
 
