@@ -25,7 +25,7 @@ function App() {
         <Greeting />
       </ContainerComponent>
 
-      <ContainerComponent>
+      <ContainerComponent className="flex justify-center space-x-4 flex-wrap">
         <About></About>
       </ContainerComponent>
 

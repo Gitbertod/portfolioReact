@@ -83,7 +83,6 @@ const ContactoForm = () => {
 
   return (
     <>
-    
       <form ref={form} onSubmit={handleForm} className={styles.form}>
       <h5 className="text-2xl font-bold tracking-tight text-gray-500 dark:text-white flex">
         Formulario de contacto
