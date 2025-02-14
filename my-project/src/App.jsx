@@ -1,6 +1,6 @@
 import Nav_bar from "./components/Nav_bar";
 import "./App.css";
-import Cards from "./components/Cards";
+import Cards from "./components/cards/Cards";
 import ContainerComponent from "./components/Container/ContainerComponent";
 import Logo from "./components/Logo/Logo";
 import Title from "./components/title/Title";
@@ -18,7 +18,7 @@ function App() {
       <ContainerComponent className=" flex justify-center space-x-4 flex-wrap">
         <Greeting />
       </ContainerComponent>
-      <Cards>
+      <Cards className="h-screen">
         <Title title="Projects" />
       </Cards>
       <SectionComponent>

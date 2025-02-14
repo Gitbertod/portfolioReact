@@ -1,0 +1,28 @@
+.doto {
+    font-family: "Doto", serif;
+    font-optical-sizing: auto;
+    font-size: 40px;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "ROND" 0;
+  }
+
+.iconContainer{
+    display: flex;
+    margin:10px
+
+}
+.icon{
+    color: gray;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    margin-top: 0px;
+}
+.subtitle{
+    font-family: "Doto", serif;
+    color:gray;
+    font-weight: 700;
+    font-size: larger;
+}

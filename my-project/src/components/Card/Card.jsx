@@ -1,5 +1,5 @@
 import styles from "./Card.module.css";
-const Card = ({ title, image, text,link,children }) => {
+const Card = ({ title, image, text,link,children,icons }) => {
   return (
     <a href={link} target="_blank" className={styles.card} >
       <div >
@@ -12,7 +12,8 @@ const Card = ({ title, image, text,link,children }) => {
         <p className="p-3 font-normal text-gray-700 dark:text-gray-400">
           {text}
         </p>
-        {children}
+        {icons}
+        {children}        
       </div>
     </a>
   );
