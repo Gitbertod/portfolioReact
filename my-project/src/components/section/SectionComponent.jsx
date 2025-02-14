@@ -3,7 +3,7 @@ import styles from "./SectionComponent.module.css";
 
 export default function SectionComponent({ children }) {
   return (
-    <div
+    <section
       className={styles.section}
       data-aos="fade-up"
       data-aos-offset="300"
@@ -14,6 +14,6 @@ export default function SectionComponent({ children }) {
       <div>
         <SocialNetworks></SocialNetworks>
       </div>
-    </div>
+    </section>
   );
 }
