@@ -9,7 +9,7 @@ const Card = ({ title, image, text,link,children,icons }) => {
         <h5 className="py-3 pl-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
           {title}
         </h5>
-        <p className="p-3 font-normal text-gray-700 dark:text-gray-400">
+        <p className={styles.parrafo}>
           {text}
         </p>
         {icons}

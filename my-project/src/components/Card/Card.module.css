@@ -30,6 +30,12 @@
   ); /* Efecto de zoom sin cambiar dimensiones del contenedor */
 }
 
+.parrafo{
+  padding: 16px;
+  color: gray;
+  font-family: "Comfortaa", serif;
+
+}
 /*RESPONSIVE*/
 @media (max-width: 600px) {
   .card img {
