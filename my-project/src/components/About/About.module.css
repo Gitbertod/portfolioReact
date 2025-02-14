@@ -1,0 +1,22 @@
+.about {
+ display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.image {
+  width: 300px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+}
+
+.parrafo{
+    max-width: 700px;
+    font-family: "Comfortaa", serif;
+    color: gray;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin: 20px
+}
