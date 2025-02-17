@@ -26,12 +26,12 @@ function App() {
       </ContainerComponent>
 
       <ContainerComponent className="flex justify-center space-x-4 flex-wrap">
-        <About></About>
+        <About id={"about"}></About>
       </ContainerComponent>
 
       {/* Sección Proyectos */}
       <Cards id="projects">
-        <Title title="Projects" />
+        <Title title="Proyectos" />
       </Cards>
       <SectionComponent id="contact">
         <Title title="Contacto" />

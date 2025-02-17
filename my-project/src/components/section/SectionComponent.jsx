@@ -1,7 +1,7 @@
 import SocialNetworks from "../socialNetworks/SocialNetworks";
 import styles from "./SectionComponent.module.css";
 
-export default function SectionComponent({ children }) {
+export default function SectionComponent({ children, id }) {
   return (
     <section
       className={styles.section}
@@ -9,6 +9,7 @@ export default function SectionComponent({ children }) {
       data-aos-offset="300"
       data-aos-easing="ease-in-sine"
       data-aos-duration="1000"
+      id={id}
     >
       {children}
       <div>
