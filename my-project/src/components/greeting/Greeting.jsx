@@ -15,7 +15,7 @@ export default function Greeting() {
       </div>
       <div>
         <p className={styles.description}>
-          Desarrollador front-end, creo aplicaciones web intuitivas, funcionales
+          Desarrollador front-end, desarrollo aplicaciones web intuitivas, funcionales
           y atractivas
         </p>
       </div>
