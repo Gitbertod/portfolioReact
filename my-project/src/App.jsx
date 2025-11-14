@@ -9,6 +9,7 @@ import SectionComponent from "./components/section/SectionComponent";
 import ContactoForm from "./components/contactoForm/ContactoForm";
 import { FooterComponent } from "./components/footer/FooterComponent";
 import About from "./components/About/About";
+import AnimatedButton from "./components/button/AnimatedButton";
 
 function App() {
   return (
@@ -37,7 +38,7 @@ function App() {
         <Title title="Contacto" />
         <ContactoForm />
       </SectionComponent>
-
+      <AnimatedButton title="Descargar CV" />
 
       {/* Sección Contacto */}
 
