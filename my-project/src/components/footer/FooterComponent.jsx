@@ -30,6 +30,9 @@ export function FooterComponent() {
             <Footer.Link href="#" onClick={() => scrollToSection("contact")}>
               Contacto
             </Footer.Link>
+            <Footer.Link href={`/gilbertoDiazCV.pdf`} target="_blank" onClick={() => scrollToSection("contact")}>
+              Descargar CV
+            </Footer.Link>
           </Footer.LinkGroup>
         </div>
         <Footer.Divider />

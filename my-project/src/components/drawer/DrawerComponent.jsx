@@ -75,6 +75,9 @@ export function DrawerComponent() {
                     <Sidebar.Item icon={HiInformationCircle}>
                       <a onClick={() => scrollToSection("contact")}>Contacto</a>
                     </Sidebar.Item>
+                    <Sidebar.Item icon={HiInformationCircle}>
+                      <a onClick={() => scrollToSection("contact")}>Descargar CV</a>
+                    </Sidebar.Item>
                   </Sidebar.ItemGroup>
                 </Sidebar.Items>
               </div>

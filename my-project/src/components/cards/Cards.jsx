@@ -83,7 +83,7 @@ const Cards = ({ children, id }) => {
         <Card
           title="MEE LATAM"
           image={"captura1.jpg"}
-          link={"https://meelatam.vercel.app/"}
+          link={"https://meelatam.com/"}
           text={
             <>
               <p>
