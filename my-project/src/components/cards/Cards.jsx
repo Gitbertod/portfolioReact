@@ -20,7 +20,7 @@ const Cards = ({ children, id }) => {
         <Card
           title="SIGMA"
           image={"sigmaCover.jpg"}
-          link={"https://sigma-mp5y3nqu9-gitbertods-projects.vercel.app/"}
+          link={"https://sigmasafi.pe/"}
           text={
             <>
               <p>
