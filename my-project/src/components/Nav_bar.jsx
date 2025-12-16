@@ -50,7 +50,7 @@ const Nav_bar = ({ children }) => {
                 </button>
               </li>
               <li>
-                <a href={`/gilbertoDiazCV.pdf`} target="_blank">
+                <a href={`/gilbertoDiazCV1.pdf`} target="_blank">
                   <button className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-slate-400 md:p-0">
                     Descargar CV
                   </button>
